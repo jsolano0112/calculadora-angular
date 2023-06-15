@@ -1,10 +1,12 @@
 <h1>{{title}}</h1>
+<div class="container">
 <form action="">
   Numero 1: <input type="number" [(ngModel)] = "numero1" name="numero1"><br>
   Numero 2: <input type="number" [(ngModel)] = "numero2" name="numero2">
   <br>
-  <input type="button" value="Sumar" (click)="sumar()">
-  <input type="button" value="Restar" (click)="restar()">
+  <input type="button" value="Sumar" (click)="sumar()" class="btn btn-secondary">
+  <input type="button" value="Restar" (click)="restar()" class="btn btn-secondary">
 
 </form>
 <p>Resultado: {{resultado}}</p>
+</div>
