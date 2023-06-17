@@ -17,4 +17,10 @@ export class AppComponent {
   restar(): void{
     this.resultado = this.numero1 - this.numero2;
   }
+  multiplicar(): void{
+    this.resultado = this.numero1 * this.numero2;
+  }
+  dividir(): void{
+    this.resultado = this.numero1 / this.numero2;
+  }
 }
